@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: #009879;
+    margin-top: 30px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.left-infor{
+   max-width: 30%;
+   padding-right: 5px;;
+
+}
+.right-list{
+    max-width: 70%;
+    padding-left: 5px;
+}
+.wrapper-infor h2{
+    text-align: center;
+    margin:20px 20px;
+}
+
+.form-group{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.form-group label{
+    width: 18%;
+}
+.form-group input{
+    padding: 6px 12px;
+    width: 82%;
+    border-radius: 5px;
+    border: 1px solid pink;
+}
+
+.content-radio{
+    display: flex;
+    gap: 40px;
+}
+.content-radio .item{
+    display: flex;
+    gap: 3px;
+}
+
+
+.button .btn-primary{
+    background-color: green;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+.header h2{
+    text-align: center;
+    margin: 30px;
+}
+.header .search{
+    text-align: center;
+    margin: 30px;
+    margin-bottom: 80px;
+}
+.header .search input,button{
+    padding: 6px 20px;
+}
+
+.header .apha-sort{
+    position: absolute;
+    right: 0px;
+    top: 130px;
+   }
+   
+.header .apha-sort button{
+    background-color: yellow;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.table-text{
+    text-align: center;
+    margin: 30px 0;
+    color: red;
+}
+
+/* table */
+.table-student{
+    margin-bottom: 50px;
+    position: relative;
+}
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin: auto;
+    width: 100%;
+}
+
+.styled-table thead tr {
+    color: black;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    border: 1px solid #2a2222;
+}
+
+
+
+.styled-table .edit{
+    background-color: blue;
+    padding: 6px 10px;
+    border-radius: 3px;
+    border: none;
+    color: #ffffff;
+
+}
+.styled-table .delete{
+    background-color: red;
+    padding: 6px 10px;
+    border-radius: 3px;
+    border: none;
+    color: #ffffff;
+}
